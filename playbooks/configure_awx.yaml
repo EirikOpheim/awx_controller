@@ -3,6 +3,8 @@
   gather_facts: false
   hosts: localhost
   connection: local
+  vars:
+    controller_validate_certs: false
   pre_tasks:
 
     - name: Include credentials for authentication
