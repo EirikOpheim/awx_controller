@@ -28,7 +28,7 @@ jobs:
       - name: Run playbook
         uses: dawidd6/action-ansible-playbook@v2
         with:
-          playbook: hello.yaml
+          playbook: playbooks/configure_awx.yaml
           directory: ./
           inventory: |
             [all]
