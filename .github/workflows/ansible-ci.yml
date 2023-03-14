@@ -38,7 +38,7 @@ jobs:
       - name: Run playbook
         uses: dawidd6/action-ansible-playbook@v2
         with:
-          playbook: deploy.yml
+          playbook: hello.yaml
           directory: ./
           inventory: |
             [all]
